@@ -1,5 +1,5 @@
 # Granuloma_RSratio_ISH
-Heterogeneity in immune cell composition is associated with Mycobacterium tuberculosis replication at the granuloma level
+# Heterogeneity in immune cell composition is associated with Mycobacterium tuberculosis replication at the granuloma level
 
 Cooper SK1,4, Ackart DF1,4, Lanni F1,4, Henao-Tamayo M1,4, Anderson GB*2,4, Podell BK*1,3,4
 (*Authors contributed equally to this work)
