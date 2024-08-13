@@ -15,7 +15,7 @@ ISH_IHC <- read.csv("data/IHC_ISH_clean_data_WIP.csv") %>%
   arrange(Vaccination, Timepoint)
 
 # Fit module
-fit <-glm(rep_tb ~ CD8_count_500 + CD4_count_500 + B220_count_500 + 
+fit <- glm(rep_tb ~ CD8_count_500 + CD4_count_500 + B220_count_500 + 
             Timepoint + Vaccination + offset(log(total_tb)), 
           data = ISH_IHC,
           family = quasipoisson(link = "log"))
