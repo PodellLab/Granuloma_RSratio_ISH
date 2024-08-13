@@ -23,7 +23,7 @@ ISH_long_rs <- ISH_long_rs1 %>%
   mutate(Vaccination = fct_recode(Vaccination, 
                                   Unvaccinated = "SAL", 
                                   BCG = "BCG")) %>% 
-  mutate(Timepoint = fct_recode(Timepoint, Day56 = "D56", Day114 = "D114"))
+  mutate(Timepoint = fct_recode(Timepoint, "Day 56" = "D56", "Day 114" = "D114"))
 
 # Create plot for Figure 2E and save to outputs subdirectory
 fig2e <- ggplot(ISH_long_rs, aes(x = Vaccination, y = counts, 
